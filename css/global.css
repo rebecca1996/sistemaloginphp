@@ -1,0 +1,218 @@
+html{
+
+  scroll-behavior: smooth;
+}
+
+
+.btn-sair{
+
+    background-color: red;
+    color: #fff!important;
+    border-radius: 2px;
+  
+  }
+
+  .msg-bem-vindo{
+
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+  
+  .container-fluid {
+    height: 100%;
+    padding:0;
+  }
+  
+  .sidebar {
+    height: 100%;
+    background-color: #2F323A;
+    width: 240px;
+    padding-top: 3.4rem
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-header {
+    color: #9AA8AD;
+    background-color: #222;
+  }
+  .sidebar-item{
+  
+      text-transform: capitalize!important;
+  
+  }
+  .sidenav .btn-danger{
+
+    color: #fff!important;
+  }
+  
+  .sidebar-item.active {
+    background-color: #5093E1;
+  }
+  
+  .sidebar-item.active > .sidebar-link {
+    color: #FFFFFF;
+  }
+    
+  .sidebar-link,
+  .sidebar-header {
+    padding: 10px 20px;
+  }
+  
+  .sidebar-link {
+    display: block;
+    text-decoration: none;
+    color: rgba(255,255,255,.5);
+  }
+  
+  .sidebar-link:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #5093E1;
+  }
+  
+  .sidebar-link .label {
+    margin-top: 4px;
+  }
+  
+  .sidebar-link i {
+    margin-right: 5px;
+  }
+  
+  .header{
+    margin-left:240px;
+  }
+  .navbar{
+    background-color: #2F323A;
+  }
+  
+  .container-fluid{
+  
+      padding-left: unset!important;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .msg-wellcome{
+
+    font-size: 20px;
+    background-color: #444444;
+    padding: 10px;
+    margin: 3px;
+    width: 100%;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  
+  .sidenav a {
+    padding: 13px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    text-transform: capitalize;
+    border-bottom: 1px solid #3a3a3a;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .avatar{
+
+    width: 200px;
+
+
+  }
+
+  .jumbotron {
+  
+    color: #fff;
+    background-color: #11111166;
+    height: 100%;
+    text-align: center;
+  }
+
+
+  .title{
+
+    font-size: 20px;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 15px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 15px;}
+  }
+
+  html,body {
+    font-family: 'Open Sans', serif;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .hero.is-success {
+    background: #f2f7fa;
+  }
+  .hero .nav, .hero.is-success .nav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  input {
+    font-weight: 300;
+  }
+  p {
+    font-weight: 700;
+  }
+
+  .modal-backdrop {
+    position: fixed;
+    z-index: 1;
+    background-color: #716f6f;
+  }
+  
+  .bg-login{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://i.ytimg.com/vi/w26B_WhsbG8/maxresdefault.jpg");
+  }
+  
+  .box{
+  
+    background-color: #235bb157;
+  }
+  
+  .has-text-white{
+  
+    color: #fff;
+  }
+  
+  
